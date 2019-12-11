@@ -1,0 +1,36 @@
+:root {
+  --type-heading: 'Roboto Slab', serif;
+  --type-body: 'Source Sans Pro', sans-serif;
+
+  --color-primary: #3d2616;
+  --color-secondary: #ac8a65;
+  --color-blk: #000000;
+  --color-wht: #ffffff;
+}
+
+html {
+    box-sizing: border-box;
+    min-height: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-color: var(--color-wht);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--type-heading);
+  color: var(--color-primary);
+}
