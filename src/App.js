@@ -4,11 +4,8 @@ import './styles.css';
 
 function App() {
   return (
-    <div>
-      <header>
-        <img src={logo} alt="logo" />
-        <h1>Hello there</h1>
-      </header>
+    <div className="main">
+      <img src={logo} alt="logo" />
     </div>
   );
 }
