@@ -34,3 +34,16 @@ h6 {
   font-family: var(--type-heading);
   color: var(--color-primary);
 }
+
+img {
+  max-width: 100%;  
+}
+
+/***** Layout *****/
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
