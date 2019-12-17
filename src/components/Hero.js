@@ -1,12 +1,10 @@
 import React from "react";
-import HeroImage from "../hero.jpg";
+// import HeroImage from "../hero.jpg";
 
 const Hero = () => {
   return (
     <>
-      <section className="hero">
-        <img src={HeroImage} alt="" />
-      </section>
+      <section className="hero">{/* <img src={HeroImage} alt="" /> */}</section>
     </>
   );
 };

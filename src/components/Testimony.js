@@ -4,7 +4,7 @@ function Testimony() {
   return (
     <div>
       <section className="testimony">
-        <h1>This is how we do it</h1>
+        <h2>"One of the best fades I have ever received!"</h2>
       </section>
     </div>
   );
