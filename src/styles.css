@@ -99,3 +99,8 @@ li {
   font-size: 2em;
   font-style: italic;
 }
+
+.services {
+  background-color: tomato;
+  height: 33vh;
+}
