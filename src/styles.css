@@ -1,4 +1,6 @@
+/**********************/
 /***** Variables *****/
+/********************/
 :root {
   --type-heading: 'Roboto Slab', serif;
   --type-body: 'Source Sans Pro', sans-serif;
@@ -9,7 +11,9 @@
   --color-wht: #ffffff;
 }
 
+/****************/
 /***** Base*****/
+/****************/
 html {
   box-sizing: border-box;
   min-height: 100%;
@@ -52,30 +56,7 @@ li {
   margin-right: 1.5em;
 }
 
-/***** Layout *****/
-.header {
-  position: fixed;
-  top: 0px;
-  width: 100vw;
-  background-color: white;
-  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
-}
-
-.app-container.small .header {
-  height: 2.625em;
-}
-
-.app-container.small nav {
-  margin-top: 0.625em;
-}
-
-nav {
-  -webkit-user-select: none; /* Chrome all / Safari all */
-  -moz-user-select: none; /* Firefox all */
-  -ms-user-select: none; /* IE 10+ */
-  user-select: none;
-}
-
+/***** 1. Hero *****/
 .hero {
   background: url('../src/images/hero.jpg');
   background-position: center;
@@ -98,26 +79,6 @@ nav {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-.wrapper {
-  display: flex;
-  width: 80%;
-  margin: 0 auto;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  width: 150px;
-  height: auto;
-  margin: 0.5em 1em 0.5em 0;
-}
-.app-container.small .logo {
-  display: none;
-}
-
 .testimony,
 .services {
   width: 100vw;
@@ -135,6 +96,7 @@ nav {
   font-style: italic;
 }
 
+/***** Services *****/
 .services {
   background-color: tomato;
   height: 33vh;

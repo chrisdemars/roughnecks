@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from './components/Header';
 import Hero from './components/Hero';
 import Testimony from './components/Testimony';
 import Services from './components/Services';
@@ -16,7 +15,6 @@ function App() {
   const breakpoint = isLarge ? 'large' : isMedium ? 'medium' : 'small';
   return (
     <div className={`app-container ${breakpoint}`}>
-      <Header />
       <Hero />
       <Testimony />
       <Services />
