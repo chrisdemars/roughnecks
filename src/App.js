@@ -5,16 +5,11 @@ import Services from './components/Services';
 import PrimaryFooter from './components/PrimaryFooter';
 import SecondaryFooter from './components/SecondaryFooter';
 
-import './styles.css';
-
-import { useMediaPredicate } from 'react-media-hook';
+import '../src/styles.scss';
 
 function App() {
-  const isMedium = useMediaPredicate('(min-width: 480px)');
-  const isLarge = useMediaPredicate('(min-width: 860px)');
-  const breakpoint = isLarge ? 'large' : isMedium ? 'medium' : 'small';
   return (
-    <div className={`app-container ${breakpoint}`}>
+    <div>
       <Hero />
       <Testimony />
       <Services />
