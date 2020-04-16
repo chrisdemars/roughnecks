@@ -1,9 +1,9 @@
 /***** Variables *****/
 :root {
-  --type-heading: "Roboto Slab", serif;
-  --type-body: "Source Sans Pro", sans-serif;
+  --type-heading: 'Roboto Slab', serif;
+  --type-body: 'Source Sans Pro', sans-serif;
 
-  --color-primary: #3d2616;
+  --color-primary: #363535;
   --color-secondary: #ac8a65;
   --color-blk: #000000;
   --color-wht: #ffffff;
@@ -25,6 +25,7 @@ html {
 
 body {
   background-color: var(--color-wht);
+  overflow-x: hidden;
 }
 
 h1,
@@ -69,18 +70,32 @@ li {
 }
 
 nav {
-  -webkit-user-select: none;  /* Chrome all / Safari all */
-  -moz-user-select: none;     /* Firefox all */
-  -ms-user-select: none;      /* IE 10+ */
-  user-select: none;  
+  -webkit-user-select: none; /* Chrome all / Safari all */
+  -moz-user-select: none; /* Firefox all */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
 }
 
 .hero {
-  background: url("../src/hero.jpg");
+  background: url('../src/images/hero.jpg');
   background-position: center;
   width: 100vw;
   height: 100vh;
   background-size: cover;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.hero:after {
+  position: absolute;
+  content: ' ';
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .wrapper {
@@ -103,7 +118,8 @@ nav {
   display: none;
 }
 
-.testimony, .services {
+.testimony,
+.services {
   width: 100vw;
   height: 25vh;
   display: flex;
@@ -112,7 +128,8 @@ nav {
   background-color: var(--color-secondary);
 }
 
-.testimony h2, .services h2 {
+.testimony h2,
+.services h2 {
   color: var(--color-wht);
   font-size: 2em;
   font-style: italic;

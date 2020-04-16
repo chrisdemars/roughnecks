@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-function Footer() {
+function PrimaryFooter() {
   return (
     <section className="testimony">
       <h2>Footer Section</h2>
@@ -8,4 +8,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default PrimaryFooter;

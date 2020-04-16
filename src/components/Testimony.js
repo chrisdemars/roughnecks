@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
-function Testimony() {
+const Testimony = () => {
   return (
-    <section className="testimony">
-      <h2>"One of the best fades I have ever received!"</h2>
+    <section className="testimonials">
+      <h2>Testimonials</h2>
     </section>
   );
-}
+};
 
 export default Testimony;
