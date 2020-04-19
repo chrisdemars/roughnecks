@@ -1,9 +1,14 @@
+/****************/
+/***** Fonts *****/
+/****************/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Slab:wght@500&display=swap');
+
 /**********************/
 /***** Variables *****/
 /********************/
 :root {
   --type-heading: 'Roboto Slab', serif;
-  --type-body: 'Source Sans Pro', sans-serif;
+  --type-body: 'Open Sans', sans-serif;
 
   --color-primary: #363535;
   --color-secondary: #ac8a65;
@@ -12,7 +17,7 @@
 }
 
 /****************/
-/***** Base*****/
+/***** Base *****/
 /****************/
 html {
   box-sizing: border-box;
@@ -42,13 +47,12 @@ h6 {
   color: var(--color-primary);
 }
 
-img {
-  max-width: 100%;
+p {
+  font-family: var(--type-body);
 }
 
-.wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
+img {
+  max-width: 100%;
 }
 
 /***** 1. Hero *****/
@@ -58,12 +62,18 @@ img {
   width: 100vw;
   height: 100vh;
   background-size: cover;
+
+  .wrapper {
+    margin: 0 auto;
+  }
 }
 
 .hero {
   display: grid;
   height: 100vh;
-  grid-template-columns: 400px 1fr;
+  grid-template-columns: 100px 800px 1fr;
+  overflow: hidden;
+  position: relative;
 
   &:after {
     position: absolute;
@@ -76,29 +86,16 @@ img {
     background-color: rgba(0, 0, 0, 0.9);
   }
 
-  .logo-section {
-    grid-column: 1 / 2;
-    position: relative;
-    z-index: 9999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    img {
-      width: 300px;
-    }
-  }
-
   .about-section {
     grid-column: 2 / 3;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
 
     h1,
     p {
       color: var(--color-wht);
-      position: relative;
       z-index: 9999;
     }
 
@@ -109,8 +106,53 @@ img {
 
     p {
       font-size: 1.5rem;
-      line-height: 1.75rem;
+      line-height: 2.5rem;
+      margin-bottom: 20px;
     }
+  }
+
+  .btn-book {
+    width: 400px;
+    background-color: transparent;
+    z-index: 9999;
+    font-size: 1.3rem;
+    border: 1px solid white;
+    color: white;
+    font-family: var(--type-body);
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 40px 0;
+    padding: 20px 0;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      background-color: white;
+      color: black;
+    }
+
+    // &:visited {
+    //   background-color: unset;
+    //   color: unset;
+    // }
+  }
+}
+
+.logo-section {
+  grid-column: 3 / 4;
+  position: absolute;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 100px;
+  right: -300px;
+
+  img {
+    width: 1200px;
+    max-width: unset;
   }
 }
 
