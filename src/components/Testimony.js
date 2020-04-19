@@ -6,24 +6,29 @@ const Testimony = () => {
       <div className="wrapper">
         <div className="testimonial-1">
           <p>
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
-            nisi!"
+            "Derek is one of the most down to earth, chill barbers you will find
+            out there. He always hooks up the fade and cut with precision. Oh,
+            and if you dig horror movies, you and Derek will get a long great!"
           </p>
-          <small>-John Doe</small>
+          <small>-Chris DeMars</small>
         </div>
         <div className="testimonial-2">
           <p>
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
-            nisi!"
+            "Derek has been cutting my hair for a couple years and I can not say
+            enough about my experience! I have never found a barber that I trust
+            enough to just sit down and get a hair cut with no worries until I
+            met Derek. I highly recommend Derek and his new shop to anyone that
+            wants a perfect and smooth cut!"
           </p>
-          <small>-John Doe</small>
+          <small>-Mike Mckinstry </small>
         </div>
         <div className="testimonial-3">
           <p>
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
-            nisi!"
+            "Derek is everything you want in a barber, and you won't be looking
+            for another one after you sit in his chair. He's easy to talk to and
+            has the best cuts in the metro Detroit area, hands down. "
           </p>
-          <small>-John Doe</small>
+          <small>-Jake Mcgarry</small>
         </div>
       </div>
     </section>
