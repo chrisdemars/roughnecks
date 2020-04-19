@@ -194,3 +194,36 @@ img {
   background-color: tomato;
   height: 33vh;
 }
+
+/***** Secondary Footer *****/
+.secondary-footer-wrapper {
+  width: 100vw;
+  padding: 10px 0;
+  background-color: var(--color-blk);
+  color: var(--color-wht);
+
+  .wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  .copyright {
+  }
+
+  .props {
+    a {
+      text-decoration: none;
+      color: white;
+      border-bottom: 1px dotted var(--color-wht);
+
+      &:hover,
+      &:focus {
+        color: var(--color-secondary);
+        border-bottom: 1px dotted var(--color-secondary);
+      }
+    }
+  }
+}

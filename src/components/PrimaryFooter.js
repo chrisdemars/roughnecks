@@ -2,7 +2,7 @@ import React from 'react';
 
 function PrimaryFooter() {
   return (
-    <section className="testimony">
+    <section>
       <h2>Footer Section</h2>
     </section>
   );
