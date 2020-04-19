@@ -8,7 +8,7 @@ const BookButton = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Reserve Your Spot
+      Book Your Spot
     </a>
   );
 };

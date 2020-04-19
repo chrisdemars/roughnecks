@@ -1,7 +1,7 @@
 import React from 'react';
 
-function SecondaryFooter() {
+const SecondaryFooter = () => {
   return <section className="testimony">Secondary Footer</section>;
-}
+};
 
 export default SecondaryFooter;
