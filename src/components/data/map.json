@@ -1,0 +1,16 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.353776, 42.42743]
+      },
+      "properties": {
+        "marker-color": "#3bb2d0",
+        "marker-size": "large",
+        "marker-symbol": "rocket"
+      }
+    }
+  ]
+}
