@@ -1,4 +1,5 @@
 import React from 'react';
+import BookButton from './BookButton';
 
 const Services = () => {
   return (
@@ -10,11 +11,13 @@ const Services = () => {
         <div className="services-section">
           <h2>Services</h2>
           <ul>
-            <li>One</li>
-            <li>Two</li>
-            <li>Three</li>
-            <li>Four</li>
+            <li>Haircut | $25</li>
+            <li>Haircut with Beard Trim | $35</li>
+            <li>Haircut with a Straigh Razor Shave | $40</li>
+            <li>Beard Trim | $15</li>
           </ul>
+          <p>For more services click the button below to book your spot!</p>
+          <BookButton />
         </div>
       </div>
     </section>

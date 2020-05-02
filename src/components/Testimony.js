@@ -3,6 +3,7 @@ import React from 'react';
 const Testimony = () => {
   return (
     <section className="testimonials-wrapper">
+      <h2>What Our Clients Say!</h2>
       <div className="wrapper">
         <div className="testimonial-1">
           <p>
