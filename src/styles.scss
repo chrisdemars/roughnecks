@@ -253,8 +253,8 @@ img {
 
 /***** Primary Footer *****/
 .primary-footer-wrapper {
-  background-color: var(--color-primary);
-  color: var(--color-wht);
+  background-color: var(--color-wht);
+  color: var(--color-blk);
 
   .wrapper {
     margin: 0 auto;
@@ -318,11 +318,11 @@ img {
     a {
       margin-left: 5px;
       font-family: var(--type-body);
-      border-bottom: 1px dotted var(--color-wht);
+      border-bottom: 1px dotted var(--color-blk);
     }
 
     a {
-      color: var(--color-wht);
+      color: var(--color-blk);
       font-family: var(--type-body);
       text-decoration: none;
     }

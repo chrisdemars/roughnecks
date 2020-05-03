@@ -56,7 +56,11 @@ const PrimaryFooter = () => {
             <li>
               <i class="far fa-envelope">
                 {' '}
-                <span>roughnecksbarbershop@gmail.com</span>
+                <span>
+                  <a href="mailto:roughnecksbarbershop@gmail.com">
+                    roughnecksbarbershop@gmail.com
+                  </a>
+                </span>
               </i>
             </li>
             <li>
@@ -64,6 +68,15 @@ const PrimaryFooter = () => {
                 <span>
                   <a href="https://www.facebook.com/roughnecksbarbershop">
                     Facebook
+                  </a>
+                </span>
+              </i>
+            </li>
+            <li>
+              <i class="fab fa-instagram">
+                <span>
+                  <a href="https://www.instagram.com/roughnecksbarbershop">
+                    Instagram
                   </a>
                 </span>
               </i>
@@ -76,18 +89,3 @@ const PrimaryFooter = () => {
 };
 
 export default PrimaryFooter;
-
-// Sun
-//     Closed
-// Mon
-//     Closed
-// Tue
-//     10:00 AM - 7:00 PM
-// Wed
-//     10:00 AM - 7:00 PM
-// Thu
-//     10:00 AM - 7:00 PM
-// Fri
-//     10:00 AM - 7:00 PM
-// Sat
-//     8:00 AM - 2:00 PM
