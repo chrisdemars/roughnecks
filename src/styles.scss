@@ -361,3 +361,34 @@ img {
     }
   }
 }
+
+/* Breakpoints */
+
+@media screen and (max-width: 1024px) {
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 40px;
+
+    .about-section {
+      grid-column: 1 / -1;
+    }
+  }
+
+  .logo-section {
+    grid-column: 1 / -1;
+    top: 560px;
+    right: -200px;
+
+    img {
+      width: 600px;
+    }
+  }
+}
+
+.testimonials-wrapper {
+  font-size: 0.8rem;
+  .wrapper {
+    padding: 0 40px;
+    grid-column-gap: 60px;
+  }
+}
