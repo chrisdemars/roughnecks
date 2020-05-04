@@ -392,3 +392,20 @@ img {
     grid-column-gap: 60px;
   }
 }
+
+.services-wrapper {
+  .wrapper {
+    padding: 0 40px;
+  }
+
+  .interior-image-section {
+    width: 50%;
+    margin-top: -50px;
+    display: flex;
+    justify-content: space-around;
+
+    img {
+      height: 400px;
+    }
+  }
+}
