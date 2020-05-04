@@ -383,29 +383,41 @@ img {
       width: 600px;
     }
   }
-}
 
-.testimonials-wrapper {
-  font-size: 0.8rem;
-  .wrapper {
-    padding: 0 40px;
-    grid-column-gap: 60px;
-  }
-}
-
-.services-wrapper {
-  .wrapper {
-    padding: 0 40px;
+  .testimonials-wrapper {
+    font-size: 0.8rem;
+    .wrapper {
+      padding: 0 40px;
+      grid-column-gap: 60px;
+    }
   }
 
-  .interior-image-section {
-    width: 50%;
-    margin-top: -50px;
-    display: flex;
-    justify-content: space-around;
+  .services-wrapper {
+    .wrapper {
+      padding: 0 40px;
+    }
 
-    img {
-      height: 400px;
+    .services-section {
+      ul {
+        li {
+          font-size: 1.5rem;
+        }
+      }
+
+      p {
+        font-size: 0.9rem;
+      }
+    }
+
+    .interior-image-section {
+      width: 50%;
+      margin-top: -50px;
+      display: flex;
+      justify-content: space-around;
+
+      img {
+        height: 400px;
+      }
     }
   }
 }
