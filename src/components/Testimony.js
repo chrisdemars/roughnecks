@@ -5,7 +5,7 @@ const Testimony = () => {
     <section className="testimonials-wrapper">
       <h2>What Our Clients Say!</h2>
       <div className="wrapper">
-        <div className="testimonial-1">
+        <div className="testimonial testimonial-1">
           <p>
             "Derek is one of the most down to earth, chill barbers you will find
             out there. He always hooks up the fade and cut with precision. Oh,
@@ -13,7 +13,7 @@ const Testimony = () => {
           </p>
           <small>-Chris DeMars</small>
         </div>
-        <div className="testimonial-2">
+        <div className="testimonial testimonial-2">
           <p>
             "Derek has been cutting my hair for a couple years and I can not say
             enough about my experience! I have never found a barber that I trust
@@ -23,7 +23,7 @@ const Testimony = () => {
           </p>
           <small>-Mike Mckinstry </small>
         </div>
-        <div className="testimonial-3">
+        <div className="testimonial testimonial-3">
           <p>
             "Derek is everything you want in a barber, and you won't be looking
             for another one after you sit in his chair. He's easy to talk to and

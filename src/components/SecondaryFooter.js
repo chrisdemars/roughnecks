@@ -4,10 +4,10 @@ const SecondaryFooter = () => {
   return (
     <footer className="secondary-footer-wrapper">
       <div className="wrapper">
-        <div className="copyright">
+        <div className="secondary-footer-section copyright">
           <p>&copy; Copyright 2020, Roughnecks Barbershop</p>
         </div>
-        <div className="props">
+        <div className="secondary-footer-section props">
           <p>
             Design & Development by{' '}
             <a

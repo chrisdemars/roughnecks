@@ -4,7 +4,7 @@ const PrimaryFooter = () => {
   return (
     <section className="primary-footer-wrapper">
       <div className="wrapper">
-        <div className="hours-section">
+        <div className="primary-footer-section hours-section">
           <h3>Hours</h3>
           <table>
             <tr>
@@ -37,13 +37,13 @@ const PrimaryFooter = () => {
             </tr>
           </table>
         </div>
-        <div className="location-section">
+        <div className="primary-footer-section location-section">
           <h3>Location</h3>
           <address>
             19163 Merriman <br></br>Livonia, MI 48152
           </address>
         </div>
-        <div className="connect-section">
+        <div className="primary-footer-section connect-section">
           <h3>Connect</h3>
           <ul>
             <li>
