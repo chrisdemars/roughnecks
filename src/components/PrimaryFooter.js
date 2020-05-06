@@ -7,34 +7,36 @@ const PrimaryFooter = () => {
         <div className="primary-footer-section hours-section">
           <h3>Hours</h3>
           <table>
-            <tr>
-              <th>Sun</th>
-              <td>Closed</td>
-            </tr>
-            <tr>
-              <th>Mon</th>
-              <td>Closed</td>
-            </tr>
-            <tr>
-              <th>Tue</th>
-              <td>10:00 AM - 7:00 PM</td>
-            </tr>
-            <tr>
-              <th>Wed</th>
-              <td>10:00 AM - 7:00 PM</td>
-            </tr>
-            <tr>
-              <th>Thu</th>
-              <td>10:00 AM - 7:00 PM</td>
-            </tr>
-            <tr>
-              <th>Fri</th>
-              <td>10:00 AM - 7:00 PM</td>
-            </tr>
-            <tr>
-              <th>Sat</th>
-              <td>8:00 AM - 2:00 PM</td>
-            </tr>
+            <tbody>
+              <tr>
+                <th>Sun</th>
+                <td>Closed</td>
+              </tr>
+              <tr>
+                <th>Mon</th>
+                <td>Closed</td>
+              </tr>
+              <tr>
+                <th>Tue</th>
+                <td>10:00 AM - 7:00 PM</td>
+              </tr>
+              <tr>
+                <th>Wed</th>
+                <td>10:00 AM - 7:00 PM</td>
+              </tr>
+              <tr>
+                <th>Thu</th>
+                <td>10:00 AM - 7:00 PM</td>
+              </tr>
+              <tr>
+                <th>Fri</th>
+                <td>10:00 AM - 7:00 PM</td>
+              </tr>
+              <tr>
+                <th>Sat</th>
+                <td>8:00 AM - 2:00 PM</td>
+              </tr>
+            </tbody>
           </table>
         </div>
         <div className="primary-footer-section location-section">
@@ -47,14 +49,14 @@ const PrimaryFooter = () => {
           <h3>Connect</h3>
           <ul>
             <li>
-              <i class="fas fa-mobile-alt fa-1x">
+              <i className="fas fa-mobile-alt fa-1x">
                 <span>
                   <a href="tel:1-248-987-6961">(248) 987-6961</a>
                 </span>
               </i>
             </li>
             <li>
-              <i class="far fa-envelope">
+              <i className="far fa-envelope">
                 {' '}
                 <span>
                   <a href="mailto:roughnecksbarbershop@gmail.com">
@@ -64,7 +66,7 @@ const PrimaryFooter = () => {
               </i>
             </li>
             <li>
-              <i class="fab fa-facebook-square">
+              <i className="fab fa-facebook-square">
                 <span>
                   <a href="https://www.facebook.com/roughnecksbarbershop">
                     Facebook
@@ -73,7 +75,7 @@ const PrimaryFooter = () => {
               </i>
             </li>
             <li>
-              <i class="fab fa-instagram">
+              <i className="fab fa-instagram">
                 <span>
                   <a href="https://www.instagram.com/roughnecksbarbershop">
                     Instagram
