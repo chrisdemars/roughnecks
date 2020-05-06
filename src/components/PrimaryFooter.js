@@ -49,7 +49,7 @@ const PrimaryFooter = () => {
             <li>
               <i class="fas fa-mobile-alt fa-1x">
                 <span>
-                  <a href="tel:1-313-757-3731">(313) 757-3731</a>
+                  <a href="tel:1-248-987-6961">(248) 987-6961</a>
                 </span>
               </i>
             </li>
