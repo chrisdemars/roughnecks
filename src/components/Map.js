@@ -17,7 +17,7 @@ const Map = () => {
     <div>
       <ReactMapGL
         {...viewport}
-        mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
+        mapboxApiAccessToken={`pk.eyJ1IjoiY2hyaXNkZW1hcnMiLCJhIjoiY2s5N2hvejVpMGJzdjNsbGJiNXIzMW9tMSJ9.ISgLlehiXK4-gxIn9R56EA`}
       >
         {mapInfo.features.map((map) => (
           <Marker
