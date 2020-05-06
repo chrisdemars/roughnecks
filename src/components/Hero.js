@@ -15,8 +15,11 @@ const Hero = () => {
               along with straight razor work to make any haircut service
               complete. Book your appointment now!
             </p>
-            <p>Appointments are encouraged and guaranteed.</p>
-            <p>Walk-ins are welcome however, may result in waiting.</p>
+            <p>
+              To provide a more sanitary work environment, and to keep everyone
+              as safe as possible, our services will be{' '}
+              <strong>APPOINTMENT ONLY.</strong>
+            </p>
             <BookButton />
           </div>
           <div className="logo-section">
