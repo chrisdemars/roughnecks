@@ -376,23 +376,11 @@ img {
   .hero-wrapper {
     .wrapper {
       .hero {
-        // grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
         padding: 0 40px;
 
         .about-section {
           grid-column: 1 / -1;
-
-          h1 {
-            font-size: 1.2rem;
-          }
-
-          p {
-            font-size: 1.2rem;
-          }
-
-          .btn-book {
-            width: 100%;
-          }
         }
 
         .logo-section {

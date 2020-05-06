@@ -9,7 +9,7 @@ const Testimony = () => {
           <p>
             "Derek is one of the most down to earth, chill barbers you will find
             out there. He always hooks up the fade and cut with precision. Oh,
-            and if you dig horror movies, you and Derek will get a long great!"
+            and if you dig horror movies, you and Derek will get along great!"
           </p>
           <small>-Chris DeMars</small>
         </div>
