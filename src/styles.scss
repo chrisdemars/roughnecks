@@ -217,6 +217,38 @@ img {
         text-align: center;
         margin: 10px 0;
       }
+
+      h4 {
+        margin: 5px 0;
+      }
+
+      .contact {
+        margin: 10px 0;
+        display: block;
+
+        a {
+          text-decoration: none;
+          font-family: var(--type-body);
+          border-bottom: 1px dotted var(--color-wht);
+        }
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+        font-family: var(--type-body);
+        border-bottom: 1px dotted var(--color-wht);
+        margin-bottom: 5px;
+        display: inline-block;
+
+        &:visited {
+          color: white;
+        }
+
+        &:last-of-type:attr[tel] {
+          margin-top: 5px;
+        }
+      }
     }
   }
 }

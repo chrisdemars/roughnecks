@@ -1,4 +1,5 @@
 import React from 'react';
+import BookButton from './BookButton';
 
 const BarberHeadshots = () => {
   return (
@@ -26,14 +27,16 @@ const BarberHeadshots = () => {
               talking it over with her, I decided to go for it. I attended the
               Barber/styling College of Lansing to become a licensed Barber.
               School felt like a full time job and while I didn't have a dollar
-              to my name I can say it was the best year of my life. I learned to
-              live with less and strive for more. If I had to pick a specialty,
-              I’d say maintaining a genuine conversation. In today's world, it's
-              a lost art and along with getting a good cut, I want people
-              leaving the shop feeling rejuvenated, walking a bit taller and
-              have a smile on their face.
+              to my name I can say it was the best year of my life.
             </p>
-            <button>Book</button>
+            <p>
+              I learned to live with less and strive for more. If I had to pick
+              a specialty, I’d say maintaining a genuine conversation. In
+              today's world, it's a lost art and along with getting a good cut,
+              I want people leaving the shop feeling rejuvenated, walking a bit
+              taller and have a smile on their face.
+            </p>
+            <BookButton />
           </div>
         </div>
         <div className="headshot-container">
@@ -48,18 +51,28 @@ const BarberHeadshots = () => {
               color their hair, getting them ready for homecoming or giving them
               a make over after a break up. Hair has just been a natural way in
               which I have been able to show love and support to others while
-              expressing my own creativity. In the year 2000 I started an
-              apprenticeship program and had great opportunities to study and be
-              mentored by extremely talented stylists. I was licensed in 2002
-              and throughout the years continued my education. I strive to make
-              every client feel comfortable while they're in my chair and and
-              confident when they leave, while achieving their hair goals to the
-              best of my abilities. I am excited to start this new chapter with
-              my brother! If I had known we'd be here one day, I would have
-              yelled at him less for cutting the hair off my practice
-              mannequins!
+              expressing my own creativity.
             </p>
-            <button>Book</button>
+            <p>
+              In the year 2000 I started an apprenticeship program and had great
+              opportunities to study and be mentored by extremely talented
+              stylists. I was licensed in 2002 and throughout the years
+              continued my education. I strive to make every client feel
+              comfortable while they're in my chair and and confident when they
+              leave, while achieving their hair goals to the best of my
+              abilities.
+            </p>
+            <p>
+              I am excited to start this new chapter with my brother! If I had
+              known we'd be here one day, I would have yelled at him less for
+              cutting the hair off my practice mannequins!
+            </p>
+            <h4>Book with Stacy</h4>
+            <a href="https://www.xostacy.com/">Stacy's Website</a>
+            <p>Instagram: @youreprettylovestacy</p>
+            <span className="contact">
+              <a href="tel:1-734-338-1711">(734) 338-1711</a>
+            </span>
           </div>
         </div>
       </div>
