@@ -80,10 +80,6 @@ img {
     background-color: var(--color-wht);
     color: var(--color-blk);
   }
-
-  .btn-book--small {
-    width: 300px;
-  }
 }
 
 /***** 1. Hero *****/
@@ -211,6 +207,11 @@ img {
       p {
         font-size: 1em;
         line-height: 1.5em;
+        padding-bottom: 10px;
+
+        &::first-letter {
+          font-size: 130%;
+        }
       }
 
       h3 {
@@ -227,6 +228,7 @@ img {
         display: block;
 
         a {
+          color: var(--color-wht);
           text-decoration: none;
           font-family: var(--type-body);
           border-bottom: 1px dotted var(--color-wht);
@@ -234,7 +236,6 @@ img {
       }
 
       a {
-        color: white;
         text-decoration: none;
         font-family: var(--type-body);
         border-bottom: 1px dotted var(--color-wht);
@@ -553,6 +554,28 @@ img {
 
           img {
             width: 600px;
+          }
+        }
+      }
+    }
+  }
+
+  .headshots-wrapper {
+    width: 100%;
+
+    .wrapper {
+      flex-direction: column;
+
+      .headshot-container {
+        width: 100%;
+
+        .content {
+          max-width: unset;
+          margin: 0 20px;
+
+          .btn-book {
+            width: 100%;
+            margin-bottom: 50px;
           }
         }
       }
