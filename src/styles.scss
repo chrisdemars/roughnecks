@@ -8,6 +8,7 @@
 
   --color-primary: #363535;
   --color-secondary: #ac8a65;
+  --color-tertiary: #161515;
   --color-blk: #000000;
   --color-wht: #ffffff;
 }
@@ -173,6 +174,51 @@ img {
   color: var(--color-blk);
   font-size: 2em;
   font-style: italic;
+}
+
+/***** Headshots *****/
+
+.headshots-wrapper {
+  width: 100vw;
+  padding: 100px 0;
+  background-color: var(--color-tertiary);
+  color: var(--color-wht);
+
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .headshot-container {
+    width: 50%;
+
+    .images {
+      text-align: center;
+    }
+
+    .content {
+      margin: 0 auto;
+      max-width: 66%;
+
+      p {
+        font-size: 1em;
+        line-height: 1.5em;
+      }
+
+      h3 {
+        text-align: center;
+        margin: 10px 0;
+      }
+    }
+  }
 }
 
 /***** Testimonies *****/
