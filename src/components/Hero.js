@@ -1,8 +1,6 @@
 import React from 'react';
 import logo from '../images/circle-logo.svg';
 
-import BookButton from './BookButton';
-
 const Hero = () => {
   return (
     <div className="hero-wrapper">
@@ -20,7 +18,6 @@ const Hero = () => {
               as safe as possible, our services will be{' '}
               <strong>APPOINTMENT ONLY.</strong>
             </p>
-            <BookButton />
           </div>
           <div className="logo-section">
             <img src={logo} alt="Roughnecks Barbershop Logo" />
