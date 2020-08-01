@@ -4,7 +4,7 @@ import BookButton from './BookButton';
 const BarberHeadshots = () => {
   return (
     <section className="headshots-wrapper">
-      <h2>Meet the barbers</h2>
+      <h2>Meet the crew</h2>
       <div className="wrapper">
         <div className="headshot-container">
           <div className="images">
@@ -44,10 +44,10 @@ const BarberHeadshots = () => {
             <img src="./stacey-headshot.jpg" alt="Stacy Williams" />
           </div>
           <div className="content">
-            <h3>Stacy Williams</h3>
+            <h3>Stacy Favaro</h3>
             <p>
               My love of hair artistry started years before I was actually
-              licensed in 2002. Weather it was convincing my friends to let me
+              licensed in 2002. Whether it was convincing my friends to let me
               color their hair, getting them ready for homecoming or giving them
               a make over after a break up. Hair has just been a natural way in
               which I have been able to show love and support to others while
