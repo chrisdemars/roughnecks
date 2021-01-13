@@ -3,6 +3,7 @@ import BookButton from './BookButton';
 
 const BarberHeadshots = () => {
   return (
+    <>
     <section className="headshots-wrapper">
       <h2>Meet the crew</h2>
       <div className="wrapper">
@@ -41,7 +42,7 @@ const BarberHeadshots = () => {
         </div>
         <div className="headshot-container">
           <div className="images">
-            <img src="./stacey-headshot.jpg" alt="Stacy Williams" />
+            <img src="./stacey-headshot.jpg" alt="Stacy Favaro" />
           </div>
           <div className="content">
             <h3>Stacy Favaro</h3>
@@ -75,8 +76,51 @@ const BarberHeadshots = () => {
             </span>
           </div>
         </div>
-      </div>
+        </div>
     </section>
+    <section className="headshots-wrapper" style={{paddingTop: 0}}>
+      <div className="wrapper">
+        <div className="headshot-container">
+          <div className="images">
+            <img src="./jake-headshot.jpg" alt="Jake Mcgarry" />
+          </div>
+          <div className="content">
+            <h3>Jake Mcgarry</h3>
+            <p>
+            My interest in barbering began around the same time my passion for music started. I spent years playing shows, recording albums, and touring as a self taught drummer and musician. Those trying and challenging times showed me that the harder you work towards something you're passionate about, the more rewarding the outcome will be. 
+            </p>
+            <p>
+            I have shifted that interest in barbering into a passion after years of contemplating what's next after music. I am currently a student barber at Hair Lab Detroit Barber School and apprentice at Roughnecks Barbershop. While in school and working at the barbershop, I have realized that music and barbering have had the same rewarding effect on me. When it came to music and playing shows, having people leave feeling better than when they walked in is something I still carry with me to this day. Now, I want my clients to feel that same way. I want every client to leave my chair feeling more confident than when they walked in and to have the best experience possible. 
+            </p>
+          </div>
+        </div>
+        <div className="headshot-container">
+          <div className="images">
+            <img src="./josh-headshot.jpg" alt="Josh Bonno" />
+          </div>
+          <div className="content">
+            <h3>Josh Bonno</h3>
+            <p>
+            Former 911 dispatcher, former cosmetology student (graduate 2013), former comic book slinger, former horse wrangler...
+After going through enough jobs to complete a season of Quantum Leap - In 2018 I did some soul searching to find the right livelihood.
+Thinking of how much I enjoyed parts of cosmetology school, I decided to pursue barbering at Michigan Barber School on Detroit’s westside.
+I fell in love with the craft of barbering and became a licensed barber in 2019. 
+            </p>
+            <p>
+            My passions along with barbering include creative writing, distance running, soul-music, sci-fi, watching wildlife and photography
+            </p>
+            <p>
+            I love the atmosphere of a quality barbershop, friendly conversations, getting to know my clientele and working alongside other barbers/hair artists.
+Each head of hair is unique as is the individual.
+I strive for all types of humans to be comfortable in my chair.  
+            </p>
+          </div>
+        </div>
+        </div>
+    </section>
+
+      
+  </>
   );
 };
 
