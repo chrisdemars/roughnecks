@@ -37,7 +37,6 @@ const BarberHeadshots = () => {
               I want people leaving the shop feeling rejuvenated, walking a bit
               taller and have a smile on their face.
             </p>
-            <BookButton />
           </div>
         </div>
         <div className="headshot-container">

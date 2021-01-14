@@ -155,23 +155,6 @@ img {
     }
 }
 
-.testimonials,
-.services {
-    width: 100vw;
-    height: 25vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-wht);
-}
-
-.testimonials h2,
-.services h2 {
-    color: var(--color-blk);
-    font-size: 2em;
-    font-style: italic;
-}
-
 /***** Headshots *****/
 
 .headshots-wrapper:last-of-type {
@@ -481,14 +464,6 @@ img {
         }
     }
 
-    .testimonials-wrapper {
-        font-size: 0.8rem;
-        .wrapper {
-            padding: 0 40px;
-            grid-column-gap: 60px;
-        }
-    }
-
     .services-wrapper {
         .wrapper {
             padding: 0 40px;
@@ -584,23 +559,6 @@ img {
                         margin-bottom: 50px;
                     }
                 }
-            }
-        }
-    }
-
-    .testimonials-wrapper {
-        padding: 50px 0 80px 0;
-
-        h2 {
-            font-size: 2rem;
-        }
-
-        .wrapper {
-            display: flex;
-            flex-direction: column;
-
-            .testimonial {
-                margin-bottom: 20px;
             }
         }
     }
