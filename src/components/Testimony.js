@@ -23,14 +23,14 @@ const Testimony = () => {
           </p>
           <small>-Mike Mckinstry </small>
         </div>
-        <div className="testimonial testimonial-3">
+        {/* <div className="testimonial testimonial-3">
           <p>
             "Derek is everything you want in a barber, and you won't be looking
             for another one after you sit in his chair. He's easy to talk to and
             has the best cuts in the metro Detroit area, hands down. "
           </p>
           <small>-Jake Mcgarry</small>
-        </div>
+        </div> */}
       </div>
     </section>
   );
