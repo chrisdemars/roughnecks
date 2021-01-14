@@ -1,5 +1,4 @@
 import React from 'react';
-import BookButton from './BookButton';
 
 const BarberHeadshots = () => {
   return (
