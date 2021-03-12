@@ -92,29 +92,7 @@ const BarberHeadshots = () => {
             </p>
           </div>
         </div>
-        <div className="headshot-container">
-          <div className="images">
-            <img src="./josh-headshot.jpg" alt="Josh Bonno" />
-          </div>
-          <div className="content">
-            <h3>Josh Bonno</h3>
-            <p>
-            Former 911 dispatcher, former cosmetology student (graduate 2013), former comic book slinger, former horse wrangler...
-After going through enough jobs to complete a season of Quantum Leap - In 2018 I did some soul searching to find the right livelihood.
-Thinking of how much I enjoyed parts of cosmetology school, I decided to pursue barbering at Michigan Barber School on Detroit’s westside.
-I fell in love with the craft of barbering and became a licensed barber in 2019. 
-            </p>
-            <p>
-            My passions along with barbering include creative writing, distance running, soul-music, sci-fi, watching wildlife and photography
-            </p>
-            <p>
-            I love the atmosphere of a quality barbershop, friendly conversations, getting to know my clientele and working alongside other barbers/hair artists.
-Each head of hair is unique as is the individual.
-I strive for all types of humans to be comfortable in my chair.  
-            </p>
-          </div>
-        </div>
-        </div>
+      </div>
     </section>
 
       
