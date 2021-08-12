@@ -1,21 +1,27 @@
 import React from 'react';
-import Hero from './components/Hero';
-import BarberHeadshots from './components/BarberHeadshots';
-import Map from './components/Map';
-import PrimaryFooter from './components/PrimaryFooter';
-import SecondaryFooter from './components/SecondaryFooter';
+import Home  from './pages/home'
+import Login  from './pages/login'
+import Message from './pages/message'
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-import '../src/styles.scss';
 
 function App() {
   return (
-    <div>
-      <Hero />
-      <BarberHeadshots />
-      <Map />
-      <PrimaryFooter />
-      <SecondaryFooter />
-    </div>
+    <Router>
+            <Link to ='/'></Link>
+        <Link to='/login'></Link>
+      <Switch>
+        <Route exact path='/'>
+          <Home />
+        </Route>
+        <Route path='/login'>
+          <Login />
+        </Route>
+        <Route path='/message'>
+          <Message />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
