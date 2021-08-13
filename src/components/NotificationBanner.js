@@ -15,7 +15,7 @@ const NotificationBanner = () => {
 
   return (
     <>
-      {message?.length ? (<p>{message}</p>) : (null)}
+      {message?.length ? (<p className="client-message">{message}</p>) : (null)}
     </>
   )
 }

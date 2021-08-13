@@ -82,6 +82,15 @@ img {
     }
 }
 
+/***** Client Message*****/
+.client-message {
+    color: black;
+    font-size: 2em;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
 /***** 1. Hero *****/
 .hero-wrapper {
     background: url('../src/images/hero.jpg');
