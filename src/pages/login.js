@@ -14,21 +14,20 @@ function Login() {
     const allUsers = await auth.signInWithEmailAndPassword(email, password);
     const user = allUsers;
 
-    if(user) {
+    if (user) {
       history.push('/message')
     }
   }
 
   return (
-    <>
+    <div className="log-form">
+      <h2>Login to your account</h2>
       <form onSubmit={handleSignIn}>
-        <label htmlFor="email">Email</label>
-          <input type="text" id="email" onChange={(e) => setEmail(e.target.value)}/>
-        <label htmlFor="password">Password</label>
-          <input type="password" id="password" onChange={(e) => setPassword(e.target.value)}/>
-          <button>Submit</button>
+        <input type="text" title="email" placeholder="email" onChange={(e) => setEmail(e.target.value)} />
+        <input type="password" title="password" placeholder="password" onChange={(e) => setPassword(e.target.value)} />
+        <button type="submit" className="btn">Login</button>
       </form>
-    </>
+    </div>
   )
 }
 

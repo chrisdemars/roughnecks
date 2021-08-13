@@ -42,12 +42,14 @@ function Message() {
 
   return (
     <>
-    { loading ? (<p>Loading Message...</p>) : (      
-      <form onSubmit={handleMessage}>
-        <label htmlFor="message">Message</label>
-        <textarea name="message" id="message" cols="30" rows="10" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
-          <button>Submit</button>
-      </form>) }
+    { loading ? (<p className="client-message">Loading Message...</p>) : (  
+      <div className='log-form'>
+        <h2>Message to clients</h2>
+        <form onSubmit={handleMessage}>
+          <textarea name="message" id="message" cols="30" rows="10" placeholder='Message' value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
+            <button className='btn'>Submit</button>
+        </form>
+      </div>) }
     </>
   )
 }

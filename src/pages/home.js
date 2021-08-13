@@ -10,7 +10,7 @@ function Home (){
 
   return (
       <>
-      <NotificationBanner/>
+        <NotificationBanner/>
         <Hero />
         <BarberHeadshots />
         <Map />
