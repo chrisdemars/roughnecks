@@ -201,6 +201,14 @@ img {
             margin: 0 auto;
             max-width: 66%;
 
+            a {
+                color: #02ffff;
+
+                &:visited {
+                    color: #1fb5bf;
+                }
+            }
+
             p {
                 font-size: 1em;
                 line-height: 1.5em;
@@ -225,7 +233,6 @@ img {
                 display: block;
 
                 a {
-                    color: var(--color-wht);
                     text-decoration: none;
                     font-family: var(--type-body);
                     border-bottom: 1px dotted var(--color-wht);
