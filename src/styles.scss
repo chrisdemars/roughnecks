@@ -246,10 +246,6 @@ img {
                 margin-bottom: 5px;
                 display: inline-block;
 
-                &:visited {
-                    color: white;
-                }
-
                 &:last-of-type:attr[tel] {
                     margin-top: 5px;
                 }
