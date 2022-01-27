@@ -8,7 +8,7 @@ const BarberHeadshots = () => {
         <div className='wrapper'>
           <div className='headshot-container'>
             <div className='images'>
-              <img src='./derek-headshot.jpg' alt='Derek Favaro' />
+              <img src='./derek-new.jpg' alt='Derek Favaro' />
             </div>
             <div className='content'>
               <h3>Derek Favaro</h3>
@@ -75,7 +75,7 @@ const BarberHeadshots = () => {
         <div className='wrapper'>
           <div className='headshot-container'>
             <div className='images'>
-              <img src='./jake-headshot.jpg' alt='Jake Mcgarry' />
+              <img src='./jake-new.jpg' alt='Jake Mcgarry' />
             </div>
             <div className='content'>
               <h3>Jake Mcgarry</h3>
@@ -99,7 +99,7 @@ const BarberHeadshots = () => {
           </div>
           <div className='headshot-container'>
             <div className='images'>
-              <img src='./jake-headshot.jpg' alt='Jake Mcgarry' />
+              <img src='./cody-new.jpg' alt='Cody' />
             </div>
             <div className='content'>
               <h3>Cody</h3>
