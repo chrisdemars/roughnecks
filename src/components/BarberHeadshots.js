@@ -32,7 +32,7 @@ const BarberHeadshots = () => {
             <div className='images'>
               <img src='./stacey-headshot.jpg' alt='Stacy Favaro' />
             </div>
-            <div className='content'>
+            <div className='content stacy-info'>
               <h3>Stacy Favaro</h3>
               <p>
                 My love of hair artistry started years before I was actually
@@ -99,10 +99,10 @@ const BarberHeadshots = () => {
           </div>
           <div className='headshot-container'>
             <div className='images'>
-              <img src='./cody-new.jpg' alt='Cody' />
+              <img src='./cody-new.jpg' alt='Cody Smith' />
             </div>
             <div className='content'>
-              <h3>Cody</h3>
+              <h3>Cody Smith</h3>
               <p>
                 I come from a family of Barbers and Cosmetologists so I guess
                 naturally, it makes sense why I would fall into this career. I'm
