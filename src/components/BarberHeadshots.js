@@ -75,30 +75,6 @@ const BarberHeadshots = () => {
         <div className='wrapper'>
           <div className='headshot-container'>
             <div className='images'>
-              <img src='./jake-new.jpg' alt='Jake Mcgarry' />
-            </div>
-            <div className='content'>
-              <h3>Jake Mcgarry</h3>
-              <p>
-                My interest in barbering began around the same time my passion
-                for music started. I spent years playing shows, recording
-                albums, and touring as a self taught drummer and musician. Those
-                trying and challenging times showed me that the harder you work
-                towards something you're passionate about, the more rewarding
-                the outcome will be. I have shifted that interest in barbering
-                into a passion after years of contemplating what's next after
-                music. I have realized that music and barbering have had the
-                same rewarding effect on me. When it came to music and playing
-                shows, having people leave feeling better than when they walked
-                in is something I still carry with me to this day. Now, I want
-                my clients to feel that same way. I want every client to leave
-                my chair feeling more confident than when they walked in and to
-                have the best experience possible.
-              </p>
-            </div>
-          </div>
-          <div className='headshot-container'>
-            <div className='images'>
               <img src='./cody-new.jpg' alt='Cody Smith' />
             </div>
             <div className='content'>
