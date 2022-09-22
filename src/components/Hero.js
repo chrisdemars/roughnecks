@@ -1,13 +1,14 @@
 import React from 'react';
 import BookButton from './BookButton';
+// import StoreButton from './StoreButton';
 import logo from '../images/circle-logo.svg';
 
 const Hero = () => {
   return (
-    <div className="hero-wrapper">
-      <div className="wrapper">
-        <section className="hero">
-          <div className="about-section">
+    <div className='hero-wrapper'>
+      <div className='wrapper'>
+        <section className='hero'>
+          <div className='about-section'>
             <h1>Welcome to Roughnecks!</h1>
             <p>
               Here at Roughnecks, we offer a wide array of men’s cuts and styles
@@ -19,10 +20,11 @@ const Hero = () => {
               as safe as possible, our services will be{' '}
               <strong>APPOINTMENT ONLY.</strong>
             </p>
-            <BookButton/>
+            <BookButton />
+            {/* <StoreButton /> */}
           </div>
-          <div className="logo-section">
-            <img src={logo} alt="Roughnecks Barbershop Logo" />
+          <div className='logo-section'>
+            <img src={logo} alt='Roughnecks Barbershop Logo' />
           </div>
         </section>
       </div>
