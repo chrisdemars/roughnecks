@@ -7,7 +7,7 @@ const StoreButton = () => {
       className='btn-store'
       target='_blank'
       rel='noopener noreferrer'>
-      Shop!
+      Shop
     </a>
   );
 };
