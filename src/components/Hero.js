@@ -1,6 +1,6 @@
 import React from 'react';
 import BookButton from './BookButton';
-// import StoreButton from './StoreButton';
+import StoreButton from './StoreButton';
 import logo from '../images/circle-logo.svg';
 
 const Hero = () => {
@@ -21,7 +21,7 @@ const Hero = () => {
               <strong>APPOINTMENT ONLY.</strong>
             </p>
             <BookButton />
-            {/* <StoreButton /> */}
+            <StoreButton />
           </div>
           <div className='logo-section'>
             <img src={logo} alt='Roughnecks Barbershop Logo' />
