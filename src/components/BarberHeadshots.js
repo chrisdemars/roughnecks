@@ -78,7 +78,7 @@ const BarberHeadshots = () => {
               <img src='./cody-new.jpg' alt='Cody Smith' />
             </div>
             <div className='content'>
-              <h3>Cody Smith</h3>
+              <h3>Cody Aurelius</h3>
               <p>
                 I come from a family of Barbers and Cosmetologists so I guess
                 naturally, it makes sense why I would fall into this career. I'm
